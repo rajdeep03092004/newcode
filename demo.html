@@ -1,0 +1,878 @@
+html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contact_us_green * {
+  font-family: Nunito, sans-serif;
+}
+
+.contact_us_green .responsive-container-block {
+  min-height: 75px;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 60px;
+  margin-left: auto;
+}
+
+.contact_us_green input:focus {
+  outline-color: initial;
+  outline-style: none;
+  outline-width: initial;
+}
+
+.contact_us_green textarea:focus {
+  outline-color: initial;
+  outline-style: none;
+  outline-width: initial;
+}
+
+.contact_us_green .text-blk {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  line-height: 25px;
+}
+
+.contact_us_green .responsive-cell-block {
+  min-height: 75px;
+}
+
+.contact_us_green .responsive-container-block.container {
+  max-width: 1320px;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-bottom: 60px;
+  margin-left: auto;
+}
+
+.contact_us_green .responsive-container-block.big-container {
+  padding-top: 0px;
+  padding-right: 50px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+}
+
+.contact_us_green .text-blk.contactus-head {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+.contact_us_green .text-blk.contactus-subhead {
+  max-width: 385px;
+  color: #939393;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+}
+
+.contact_us_green .contact-svg {
+  padding-top: 0px;
+  padding-right: 25px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  width: 65px;
+  height: 40px;
+}
+
+.contact_us_green .social-media-links {
+  margin-top: 80px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  width: 250px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact_us_green .social-svg {
+  width: 35px;
+  height: 35px;
+}
+
+.contact_us_green .text-box {
+  display: flex;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+}
+
+.contact_us_green .contact-text {
+  color: #939393;
+}
+
+.contact_us_green .input {
+  height: 50px;
+  width: 90%;
+  border-top-width: 2.5px;
+  border-right-width: 2.5px;
+  border-bottom-width: 2.5px;
+  border-left-width: 2.5px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #a2a2a2;
+  border-right-color: #a2a2a2;
+  border-bottom-color: #a2a2a2;
+  border-left-color: #a2a2a2;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+
+.contact_us_green .textinput {
+  height: 200px;
+  width: 95%;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #a2a2a2;
+  border-right-color: #a2a2a2;
+  border-bottom-color: #a2a2a2;
+  border-left-color: #a2a2a2;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.contact_us_green .submit-btn {
+  min-width: 290px;
+  height: 60px;
+  background-color: #1c3b28;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-top-color: #767676;
+  border-right-color: #767676;
+  border-bottom-color: #767676;
+  border-left-color: #767676;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.contact_us_green .btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contact_us_green .text-blk.input-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+}
+
+.contact_us_green .responsive-cell-block.wk-ipadp-6.wk-tab-12.wk-mobile-12.wk-desk-6 {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 30px;
+  margin-left: 0px;
+}
+
+.contact_us_green .responsive-cell-block.wk-tab-12.wk-mobile-12.wk-desk-5.wk-ipadp-10 {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact_us_green .head-text-box {
+  display: none;
+}
+
+.contact_us_green .line {
+  border-right-width: 1.8px;
+  border-right-style: solid;
+  border-right-color: #a2a2a2;
+}
+
+.contact_us_green .responsive-cell-block.wk-tab-12.wk-mobile-12.wk-desk-7.wk-ipadp-10.line {
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+@media (max-width: 1024px) {
+  .contact_us_green .responsive-container-block.container {
+    justify-content: center;
+  }
+
+  .contact_us_green .text-blk.contactus-subhead {
+    max-width: 90%;
+  }
+
+  .contact_us_green .head-text-box {
+    display: block;
+  }
+
+  .contact_us_green .responsive-cell-block.wk-tab-12.wk-mobile-12.wk-desk-7.wk-ipadp-10.line {
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+    padding-left: 0px;
+  }
+
+  .contact_us_green .line {
+    border-right-width: initial;
+    border-right-style: none;
+    border-right-color: initial;
+    border-bottom-width: 1.8px;
+    border-bottom-style: solid;
+    border-bottom-color: #a2a2a2;
+  }
+
+  .contact_us_green .responsive-cell-block.wk-tab-12.wk-mobile-12.wk-desk-5.wk-ipadp-10 {
+    margin-top: 60px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .contact_us_green .workik-contact-bigbox {
+    display: flex;
+  }
+
+  .contact_us_green .responsive-cell-block.wk-tab-12.wk-mobile-12.wk-desk-5.wk-ipadp-10 {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact_us_green .text-content {
+    display: none;
+  }
+
+  .contact_us_green .input {
+    width: 100%;
+  }
+
+  .contact_us_green .textinput {
+    width: 100%;
+  }
+
+  .contact_us_green .text-blk.contactus-head {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact_us_green .responsive-container-block.big-container {
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+  }
+
+  .contact_us_green .workik-contact-bigbox {
+    display: block;
+  }
+
+  .contact_us_green .text-blk.input-title {
+    font-size: 16px;
+  }
+
+  .contact_us_green .text-blk.contactus-head {
+    font-size: 26px;
+  }
+
+  .contact_us_green .text-blk.contactus-subhead {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .contact_us_green .input {
+    height: 45px;
+  }
+
+  .contact_us_green .responsive-cell-block.wk-ipadp-6.wk-tab-12.wk-mobile-12.wk-desk-6 {
+    margin: 0 0 25px 0;
+  }
+}
+        pre{
+            margin-left: 5%;
+        }
+        body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container1 {
+    flex: 1;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: white;
+    position: fixed;
+    font-weight: bolder;
+    opacity: 0.8;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 30%;
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+  }
+  #po{
+    margin-right: 0;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0; 
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none; border:none;
+  text-decoration: none;
+}
+
+body{
+  background: #ddd;
+}
+
+.container{
+  margin:20px auto;
+  max-width: 700px;
+}
+
+.container .heading{
+  text-align: center;
+  font-size: 30px;
+  padding:20px;
+  margin-bottom: 20px;
+}
+
+.container .accordion-container{
+  padding:0 20px;
+}
+
+.container .accordion-container .accordion{
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.container .accordion-container .accordion.active .accordion-heading{
+  background:green ;
+}
+
+.container .accordion-container .accordion.active .accordion-heading h3{
+  color:#fff;
+}
+
+.container .accordion-container .accordion.active .accordion-heading i{
+  color:#fff;
+  transform: rotate(180deg);
+  transition: transform .2s .1s;
+}
+
+.container .accordion-container .accordion.active .accordion-content{
+  display: block;
+}
+
+.container .accordion-container .accordion .accordion-heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:10px;
+  background: #fff;
+  border:2px solid #000;
+  padding:15px 20px;
+}
+
+.container .accordion-container .accordion .accordion-heading h3{
+  font-size: 18px;;
+}
+
+.container .accordion-container .accordion .accordion-heading i{
+  font-size: 25px;;
+}
+
+.container .accordion-container .accordion .accordion-content{
+  padding:15px 20px;
+  border:2px solid #000;
+  font-size: 15px;
+  background: #fff;
+  border-top: 0;
+  display: none;
+  animation: animate .2s linear backwards;
+  line-height: 2;
+  transform-origin: top;
+}
+
+@keyframes animate {
+  0%{
+    transform: scaleY(0);
+  }
+  
+}
+
+
+.container2{
+ display: grid;
+ align-items:center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap:7px;
+}
+
+img {
+  max-width: 400%;
+  max-height:200%;
+}
+.image2{
+    max-width: 50%;
+    max-height: 50%;
+    position: relative;
+}
+
+.text {
+  font-size: 90px;
+  text-align: right;
+}
+
+.blockquote {
+    padding: 60px 80px 40px;
+    position: relative;
+}
+.blockquote p {
+    font-family: "Utopia-italic";
+    font-size: 35px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+/*blockquote p::before {
+    content: "\f095"; 
+    font-family: FontAwesome;
+   display: inline-block;
+   padding-right: 6px;
+   vertical-align: middle;
+  font-size: 180px;
+ }*/
+
+.blockquote:before {
+  position: absolute;
+  font-family: 'FontAwesome';
+  top: 0;
+  
+  content:"\f10d";
+  font-size: 200px;
+  color: rgba(0,0,0,0.1);
+   
+}
+
+.blockquote::after {
+    content: "";
+    top: 20px;
+    left: 50%;
+    margin-left: -100px;
+    position: absolute;
+    border-bottom: 3px plum;
+    height: 3px;
+    width: 200px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+.otro-blockquote{
+  font-size: 1.4em;
+  width:60%;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #a09898;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid green;
+  line-height:1.6;
+  
+  
+}
+
+.otro-blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+.otro-blockquote::after{
+  content: '';
+}
+
+.otro-blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+#ipl{
+       text-align: left;
+}
+    </style>
+</head>
+
+<body id="op" style="background-image: url(https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8292.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1710374400&semt=ais); background-size: cover;">
+  <header>
+    <div class="navbar">
+      <a href="#op" style="color: white; font-size: 25px;"><span><em style="color: greenyellow;">N</em><em>utri</em><em style="color:greenyellow">B</em><em>ot</em></span></a>
+      
+      <a id="po" href="#poi">About</a>
+      <a id="po" href="#ipl">Quotes</a>
+      <a id="po" href="#con">Contact</a>
+      <a id="po" href="#io">FAQ</a>
+    </div>
+  </header>
+<div class="container2">
+<div class="image1">
+    <img src="https://images.ctfassets.net/zkw0qlnf0vqv/7rdkvKmqAQ6uOtot1tNTj0/8ed54335db5f4f530084c5fedf33c85d/elderly-woman-talks-with-robot-therapist-GettyImages-1472259403-3000x2000.jpg">
+
+</div>
+<div class="text" style="color: rgb(254, 254, 254); font-size: 25px;"> 
+
+ <b style="font-size:150px; transition: unset;">Small changes!</b> <p style="color: greenyellow;">"big results. Start your personalized nutrition journey today."</p>
+
+
+</div>
+</div>
+<hr style="height: auto;width: 20px;border-color: white;">
+<br>
+<br>
+<br>
+<br>
+
+<div>
+    <pre id="poi" style="color:white;text-align:center;font-size:60px">About</pre>
+    <br>
+<br>
+<br>
+<br>
+    <pre  style="color: plum; text-align: center; font-family: 'Times New Roman'; font-size:25px;;" >
+    Eat what works for you: Our AI-powered system analyzes 
+    your health profile, dietary needs, and goals to recommend 
+    delicious, tailored meal plans. Whether you're aiming for
+    weight loss, managing a health condition, or simply want to 
+    boost your energy levels, we've got you covered.
+        
+    Talk to a friendly "chat-rician": Don't have time for a 
+    doctor's appointment? Our secure chatbot, staffed by 
+    qualified healthcare professionals, is available 24/7 to 
+    answer your questions, offer guidance, and direct you to the 
+    right resources.
+    </pre>
+</div>
+
+<br>
+<br>
+<br>
+
+<pre id="ipl" style="font-size: 60px; text-align: left;color:#fff;margin-left:350px">Quote</pre>
+<blockquote  class="otro-blockquote" style="text-align: left;">
+    "The art of medicine consists of amusing the patient
+     while nature cures the disease."
+  <span>Hippocrates</span>
+</blockquote>
+<blockquote id="ipl" class="otro-blockquote" style="text-align: left;">
+    "Sometimes healing is simply a matter of time, care, and the touch of love."
+  <span>Dr. Albert Schweitzer</span>
+</blockquote>
+<blockquote id="ipl" class="otro-blockquote" style="text-align: left;">
+    "Chatbots represent a new trend in how people access information, make decisions and communicate."
+  <span>Christie Pitts</span>
+</blockquote>
+
+
+  
+<div class="container" id="io">
+
+  <h1 class="heading" style="color: white;">frequently asked questions</h1>
+
+  <div class="accordion-container">
+
+      <div class="accordion active">
+          <div class="accordion-heading">
+              <h3>What is a diet Planner?</h3>
+              <i class="fas fa-angle-down"></i>
+          </div>
+          <p class="accordion-content">
+              A diet planner is a tool that helps you plan meals and snacks based on your goals, tastes, and lifestyle, as well as any medicines you’re
+               taking. There are various approaches to diet planning,
+          </p>
+      </div>
+
+      <div class="accordion">
+          <div class="accordion-heading">
+              <h3>How do you deal with unintentional weight loss?
+              </h3>
+              <i class="fas fa-angle-down"></i>
+          </div>
+          <p class="accordion-content">
+              Calorie intake is an individual measure for each person, but if an elderly person loses 5 percent of his or her body weight in a month, that is significant. That fluctuation is a red flag and should be addressed by
+               a doctor.
+          </p>
+      </div>
+
+      <div class="accordion">
+          <div class="accordion-heading">
+              <h3>What is a health chatbot?</h3>
+              <i class="fas fa-angle-down"></i>
+          </div>
+          <p class="accordion-content">
+            A health chatbot is an AI-powered virtual assistant that can engage in conversations with users to provide information, answer questions, and offer support related to health and wellness topics.
+          </p>
+      </div>
+
+      <div class="accordion">
+          <div class="accordion-heading">
+              <h3>What kind of health-related questions can I ask a chatbot?</h3>
+              <i class="fas fa-angle-down"></i>
+          </div>
+          <p class="accordion-content">
+            You can ask a health chatbot a wide range of questions, including those about symptoms, medical conditions, treatment options, medication information, lifestyle recommendations, nutrition advice, fitness tips, and more.
+          </p>
+      </div>
+
+      <div class="accordion">
+          <div class="accordion-heading">
+              <h3>Can a health chatbot provide mental health support?</h3>
+              <i class="fas fa-angle-down"></i>
+          </div>
+          <p class="accordion-content">
+            es, may health chatbots offer mental health support by providing coping strategies, mindfulness exercises, mood tracking tools, and resources for managing stress, anxiety, depression, and other mental health concerns.
+          </p>
+      </div>
+
+      <div class="accordion">
+          <div class="accordion-heading">
+              <h3>Is there a cost associated with using a health chatbot?</h3>
+              <i class="fas fa-angle-down"></i>
+          </div>
+          <p class="accordion-content">
+            No health chatbots are available for free, while others may offer premium features or subscriptions .   
+          </p>
+      </div>
+
+  </div>
+
+</div>
+
+
+<script>
+
+let accordions = document.querySelectorAll('.accordion-container .accordion');
+
+accordions.forEach(acco =>{
+  acco.onclick = () =>{
+      accordions.forEach(subAcco => { subAcco.classList.remove('active') });
+      acco.classList.add('active');
+  }
+})
+
+</script>
+<hr id="con" style="color:#ddd; height:20px" >
+<div style="background-color: #000;" class="contact_us_green">
+    <div class="responsive-container-block big-container">
+      <div class="responsive-container-block container">
+        <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-7 wk-ipadp-10 line" id="i69b-2">
+          <form class="form-box">
+            <div class="container-block form-wrapper">
+              <div class="head-text-box">
+                <p class="text-blk contactus-head">
+                  Contact us
+                </p>
+                <p class="text-blk contactus-subhead">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna al iqua. Ut enim
+                </p>
+              </div>
+              <div class="responsive-container-block">
+                <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6" id="i10mt-6">
+                  <p class="text-blk input-title" style="color:white">
+                    FIRST NAME
+                  </p>
+                  <input class="input" id="ijowk-6" name="FirstName">
+                </div>
+                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                  <p class="text-blk input-title" style="color:white">
+                    LAST NAME
+                  </p>
+                  <input class="input" id="indfi-4" name="Last Name">
+                </div>
+                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                  <p class="text-blk input-title" style="color:white">
+                    EMAIL
+                  </p>
+                  <input class="input" id="ipmgh-6" name="Email">
+                </div>
+                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                  <p class="text-blk input-title" style="color:white">
+                    PHONE NUMBER
+                  </p>
+                  <input class="input" id="imgis-5" name="PhoneNumber">
+                </div>
+                <br>
+                <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i-6">
+                  <p class="text-blk input-title" style="color:white">
+                    WHAT DO YOU HAVE IN MIND
+                  </p> 
+                  <textarea class="textinput" id="i5vyy-6" placeholder="Please enter query..."></textarea>
+                </div>
+              </div>
+              <div class="btn-wrapper">
+                <button class="submit-btn">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <br><br>
+        <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-5 wk-ipadp-10" id="ifgi">
+          <div class="container-box">
+            <div class="text-content">
+              <p class="text-blk contactus-head"style="color:white">
+                Contact us
+              </p>
+              <p class="text-blk contactus-subhead">
+                "Have a question or feedback? We're here to help! Reach out to us anytime, and our team will respond promptly to assist you."
+              </p>
+            </div>
+            <div class="workik-contact-bigbox">
+              <div class="workik-contact-box">
+                <div class="phone text-box">
+                  <img class="contact-svg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET21.jpg">
+                  <p class="contact-text">
+                    +1258 3258 5679
+                  </p>
+                </div>
+                <div class="address text-box">
+                  <img class="contact-svg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET22.jpg">
+                  <p class="contact-text">
+                    nutriBot@gmail.com
+                  </p>
+                </div>
+                <div class="mail text-box">
+                  <img class="contact-svg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET23.jpg">
+                  <p class="contact-text">
+                    123 Purani Haveli , Khooni Area , Hawra Bridge
+                  </p>
+                </div>
+              </div>
+              <div class="social-media-links">
+                <a href="">
+                  <img class="social-svg" id="is9ym" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg">
+                </a>
+                <a href="">
+                  <img class="social-svg" id="i706n" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg">
+                </a>
+                <a href="">
+                  <img class="social-svg" id="ib9ve" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg">
+                </a>
+                <a href="">
+                  <img class="social-svg" id="ie9fx" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Start of ChatBot (www.chatbot.com) code -->
+<script type="text/javascript">
+    window._be = window._be || {};
+    window.__be.id = "65e990c67410bd00076d316e";
+    (function() {
+        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+    })();
+</script>
+<noscript>You need to <a href="https://www.chatbot.com/help/chat-widget/enable-javascript-in-your-browser/" rel="noopener nofollow">enable JavaScript</a> in order to use the AI chatbot tool p
